@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Team — Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml;utf8,
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'>
+      <circle cx='32' cy='32' r='30' fill='%230a84ff'/>
+      <text x='50%' y='52%' dominant-baseline='middle' text-anchor='middle' font-size='34' font-family='Arial' fill='white'>T</text>
+    </svg>">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to Home">
+      <!-- Simple, editable SVG logo -->
+      <svg class="logo" width="36" height="36" viewBox="0 0 64 64" aria-hidden="true">
+        <defs>
+          <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#0a84ff"/>
+            <stop offset="100%" stop-color="#7c3aed"/>
+          </linearGradient>
+        </defs>
+        <circle cx="32" cy="32" r="28" fill="url(#g)"/>
+        <path d="M20 38h24v4H20zM30 22h4v24h-4z" fill="#fff" />
+      </svg>
+      <span class="brand-text">TeamName</span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#team">Team Members</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#branding">Logo & Branding</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home" class="hero container">
+    <div class="hero-text">
+      <h1>We build <span class="accent">useful things</span>.</h1>
+      <p class="lead">
+        Welcome to our CS 442 Database Systems project team. We are currently in the early stages of exploring potential directions for our work. Our focus is on identifying a project that allows us to apply database design principles, optimization techniques, and system implementation skills in a meaningful way. As a team, we are reviewing several ideas to ensure our final choice not only meets course requirements but also gives us an opportunity to deepen our understanding of real-world database challenges.
+      </p>
+      <div class="cta">
+        <a class="btn" href="#team">Meet the Team</a>
+        <a class="btn secondary" href="#links">Explore Links</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <!-- Decorative blob -->
+      <svg viewBox="0 0 600 600">
+        <g transform="translate(300,300)">
+          <path d="M120,-157.4C153.8,-137.6,182.5,-112.1,198.6,-79.7C214.7,-47.2,218.1,-7.6,209.4,28.1C200.7,63.8,179.9,95.6,154.5,125.2C129.1,154.8,99.1,182.1,63.6,195.6C28.1,209.2,-12.8,209.1,-50.4,197.1C-88,185,-122.1,161.1,-153.9,133C-185.6,104.8,-215,72.5,-226.1,34.8C-237.2,-2.9,-229.9,-46,-210.1,-81.2C-190.4,-116.3,-158.2,-143.6,-123.3,-165.5C-88.4,-187.5,-51,-204.2,-13.3,-194.8C24.3,-185.5,48.6,-150.6,120,-157.4Z" fill="currentColor" opacity="0.08"/>
+        </g>
+      </svg>
+    </div>
+  </main>
+
+  <section id="team" class="section container">
+    <h2>Team Members</h2>
+
+    <div class="grid cards" id="teamGrid">
+      <!-- Member Card Template (duplicate as needed) -->
+      <article class="card">
+        <img src="https://via.placeholder.com/600x400.png?text=Member+Photo" alt="Portrait of Celine Nicole Parra" class="card-img">
+        <div class="card-body">
+          <h3>Celine Nicole Parra</h3>
+          <p class="muted">TEMP</p>
+          <ul class="tags">
+            <li>TEMP</li><li>TEMP</li><li>TEMP</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn small" href="mailto:alex@example.com">Email</a>
+            <button class="btn small outline" data-modal-target="#alexModal">Bio</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+  <img src="https://via.placeholder.com/600x400.png?text=Member+Photo" alt="Portrait of Zachery Dixon" class="card-img">
+  <div class="card-body">
+    <h3>Zachery Dixon</h3>
+    <p class="muted">PNW 2026</p>
+    <ul class="tags">
+      <li>C++, C#</li><li>Java</li><li>Cybersecurity</li>
+    </ul>
+    <div class="card-actions">
+      <a class="btn small" href="mailto:diego@example.com">Email</a>
+      <button class="btn small outline" data-modal-target="#diegoModal">Bio</button>
+    </div>
+  </div>
+</article>
+
+
+      <article class="card">
+        <img src="https://via.placeholder.com/600x400.png?text=Member+Photo" alt="Portrait of Calvin Rutherford" class="card-img">
+        <div class="card-body">
+          <h3>Calvin Rutherford</h3>
+          <p class="muted">TEMP</p>
+          <ul class="tags">
+            <li>TEMP</li><li>TEMP</li><li>TEMP</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn small" href="mailto:sam@example.com">Email</a>
+            <button class="btn small outline" data-modal-target="#samModal">Bio</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://via.placeholder.com/600x400.png?text=Member+Photo" alt="Portrait of Taylor Unger" class="card-img">
+        <div class="card-body">
+          <h3>Taylor Unger</h3>
+          <p class="muted">TEMP</p>
+          <ul class="tags">
+            <li>TEMP</li><li>TEMP</li><li>TEMP</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn small" href="mailto:priya@example.com">Email</a>
+            <button class="btn small outline" data-modal-target="#priyaModal">Bio</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="links" class="section container">
+    <h2>Links</h2>
+    <p class="section-lead">Relevant social media and project resources.</p>
+
+    <ul class="link-list">
+      <li>
+        <a class="link-tile" href="https://github.com/yourteam" target="_blank" rel="noopener">
+          <span class="link-title">GitHub</span>
+          <span class="link-desc">Repositories, issues, and project boards</span>
+        </a>
+      </li>
+
+    </ul>
+  </section>
+
+  <section id="branding" class="section container">
+
+      <div class="brand-assets">
+        <div class="asset">
+          <h3>Primary Logo (SVG)</h3>
+          <button class="btn small" id="downloadLogo">Download SVG</button>
+          <div class="logo-preview">
+            <svg viewBox="0 0 64 64" class="logo-lg">
+              <defs>
+                <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#0a84ff"/>
+                  <stop offset="100%" stop-color="#7c3aed"/>
+                </linearGradient>
+              </defs>
+              <circle cx="32" cy="32" r="28" fill="url(#g2)"/>
+              <path d="M20 38h24v4H20zM30 22h4v24h-4z" fill="#fff" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modals (one per member) -->
+  <div class="modal" id="alexModal" role="dialog" aria-modal="true" aria-labelledby="alexTitle" hidden>
+    <div class="modal-card">
+      <button class="modal-close" data-modal-close>&times;</button>
+      <h3 id="alexTitle">Alex Johnson — Bio</h3>
+      <p>Leads architecture and delivery. Previously shipped scalable APIs handling 10M+ requests/day.</p>
+    </div>
+  </div>
+
+  <div class="modal" id="diegoModal" role="dialog" aria-modal="true" aria-labelledby="diegoTitle" hidden>
+  <div class="modal-card">
+    <button class="modal-close" data-modal-close>&times;</button>
+    <h3 id="diegoTitle">Diego Martinez — Bio</h3>
+    <p>Keeps infrastructure reliable and scalable, with a focus on automation and cloud resilience.</p>
+  </div>
+</div>
+
+
+  <div class="modal" id="samModal" role="dialog" aria-modal="true" aria-labelledby="samTitle" hidden>
+    <div class="modal-card">
+      <button class="modal-close" data-modal-close>&times;</button>
+      <h3 id="samTitle">Sam Lee — Bio</h3>
+      <p>Designs polished UIs and accessible components. Loves design systems and performance.</p>
+    </div>
+  </div>
+
+  <div class="modal" id="priyaModal" role="dialog" aria-modal="true" aria-labelledby="priyaTitle" hidden>
+    <div class="modal-card">
+      <button class="modal-close" data-modal-close>&times;</button>
+      <h3 id="priyaTitle">Priya Sharma — Bio</h3>
+      <p>Turns raw data into insights. Focus on model monitoring and explainability.</p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> TeamName. All rights reserved.</p>
+      <a href="#home" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
