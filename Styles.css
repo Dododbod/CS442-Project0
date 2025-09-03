@@ -112,6 +112,10 @@ body {
 .link-desc { color: var(--muted); }
 
 /* Branding */
+.logo-lg {
+  border-radius: 50%;   
+  object-fit: cover;   
+}
 .branding { display:grid; gap:1.25rem; }
 .swatches { display:flex; flex-wrap:wrap; gap:.75rem; }
 .swatch {
@@ -165,3 +169,9 @@ a:focus-visible, button:focus-visible {
 .accent { background: linear-gradient(90deg, var(--primary), var(--accent)); -webkit-background-clip: text; color: transparent; }
 
 
+/* Logo */
+
+.logo {
+  border-radius: 50%;   
+  object-fit: cover;   
+}
